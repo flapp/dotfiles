@@ -12,8 +12,18 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 "Turn on syntax mode
 syntax on
 
+"Set the theme
+set background=dark
+colorscheme solarized
+let g:solarized_termcolors=256
+
+
 "Allow airline plugin to load on startup
-set laststatus=2  
+set laststatus=2
+
+"Airline configuration
+let g:airline_theme = 'powerlineish'
+let g:airline_enable_branch = 1
 
 "Start git-gutter on startup
 let g:gitgutter_max_signs = 500  " default value
