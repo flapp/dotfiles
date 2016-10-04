@@ -29,3 +29,6 @@ read -rsp $'Import the font by opening it and installing the font...\n' -n1 key
 
 #Install autojump
 brew install autojump
+
+#Install sourcetree
+brew install Caskroom/cask/sourcetree
