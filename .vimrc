@@ -9,6 +9,10 @@ autocmd vimenter * wincmd p
 "Close vim when the only window left open is NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
+" For mouse click in NERDTree
+:set mouse=a
+let g:NERDTreeMouseMode=3 
+
 "Turn on syntax mode
 syntax on
 
