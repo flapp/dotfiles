@@ -37,5 +37,7 @@ fi
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+alias ts='task sync'
+
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"

@@ -14,18 +14,13 @@
 data.location=~/.task
 
 # Color theme (uncomment one to use)
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/light-16.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/light-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-16.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-red-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-green-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-blue-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-violets-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-yellow-green.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-gray-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-gray-blue-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-dark-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-light-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/no-color.theme
+include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-dark-256.theme
 
+color=on
+
+taskd.certificate=/Users/jonah/repos/personal-certs/private.certificate.pem
+taskd.key=/Users/jonah/repos/personal-certs/private.key.pem
+taskd.ca=/Users/jonah/repos/personal-certs/ca.cert.pem
+taskd.server=taskwarrior.inthe.am:53589
+taskd.credentials=inthe_am/jonah/e6beb02b-c6a5-4453-8329-bd734669f093
+taskd.trust=ignore hostname
