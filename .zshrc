@@ -37,7 +37,19 @@ fi
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+#List task warrior tasks
+alias tl='task list'
+#Sync task warrior tasks
 alias ts='task sync'
+#Add a task warrior task
+alias ta='task add'
+#Mark a task as done
+alias td='task done'
+
+#Add a alias for pbcopy so I can pipe things to my clipboard
+alias clip="pbcopy"
+
+
 
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
