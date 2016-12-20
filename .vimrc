@@ -79,12 +79,6 @@ augroup trailing
     autocmd InsertLeave * :set listchars+=trail:⌴
 augroup END
 
-"Fix tabs
-set smarttab
-set shiftwidth=2
-set tabstop=2
-set expandtab
-
 "Syntastic settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -94,3 +88,19 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+nnoremap <space> za
+
+"Python indentation
+au BufNewFile,BufRead *.py:
+    \ set tabstop=2
+    \ set softtabstop=2
+    \ set shiftwidth=2
+    \ set smarttab
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix

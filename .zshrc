@@ -49,6 +49,7 @@ alias td='task done'
 #Add a alias for pbcopy so I can pipe things to my clipboard
 alias clip="pbcopy"
 
+alias updatedb='sudo /usr/libexec/locate.updatedb'
 
 
 # alias zshconfig="mate ~/.zshrc"
